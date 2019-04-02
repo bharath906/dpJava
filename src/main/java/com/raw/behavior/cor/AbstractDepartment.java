@@ -1,4 +1,4 @@
-package com.raw.Behavior.cor;
+package com.raw.behavior.cor;
 
 public class AbstractDepartment implements Department {
 

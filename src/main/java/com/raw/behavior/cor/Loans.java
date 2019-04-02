@@ -1,6 +1,6 @@
-package com.raw.Behavior.cor;
+package com.raw.behavior.cor;
 
-public class Accounts implements Department {
+public class Loans implements Department {
 
   private Department nextDept;
 
@@ -10,8 +10,8 @@ public class Accounts implements Department {
   }
 
   public void process(Request request) {
-         if(request.getDepartment().equals("Accounts")){
-           System.out.println(" Accounts Processign");
+         if(request.getDepartment().equals("Loans")){
+           System.out.println(" Loans Processign");
          } else {
            nextDept.process(request);
          }
