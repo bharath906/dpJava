@@ -1,4 +1,4 @@
-package com.raw.dpJava.cof;
+package com.raw.Behavior.cor;
 
 public class Payments implements Department {
 
